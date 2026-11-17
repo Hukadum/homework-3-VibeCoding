@@ -1,3 +1,9 @@
+/*
+    Курс: Vibe Coding
+    Домашнее задание №3: Генератор отчёта по викторине
+    Выполнил: Молчанов Константин
+    Группа: М26-555
+*/
 // Импортируем методы для работы с файловой системой и наши функции из stats.js
 import { readFile, unlink, writeFile } from 'node:fs/promises'
 import { calculateReport, validateQuizData } from './stats.js'
